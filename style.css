@@ -1,7 +1,95 @@
 /* Stylesheet */
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 div {
     margin: 2px;
     padding: 2px;
     border: 2px solid red;
+}
+
+/* Header */
+
+.header {
+    background-color: #1F2937;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.link-list {
+    list-style-type: none;
+}
+
+.header-secondary-text, .header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+/* Information Block */
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+/* Quote Block */
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: 900;
+}
+
+/* Call-to-Action Block */
+
+.action {
+    background-color: #3882F6;
+}
+
+.action-header {
+    color: #F9FAF8;
+}
+
+.action-text {
+    color: #F9FAF8;
+}
+
+.action-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer-text {
+    color: #E5E7EB;
 }
