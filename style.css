@@ -81,6 +81,16 @@ a:link, a:visited, a:hover, a:active {
     border-radius: 5px;
 }
 
+.header-image-container {
+    max-width: 50%;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 /* Information Block */
 
 .information-header-text {
