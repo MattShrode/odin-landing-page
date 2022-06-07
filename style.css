@@ -73,6 +73,12 @@ a:link, a:visited, a:hover, a:active {
 .header-button {
     background-color: #3882F6;
     color: #F9FAF8;
+    font-weight: bold;
+
+    padding: 5px 20px;
+    
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 /* Information Block */
@@ -81,6 +87,12 @@ a:link, a:visited, a:hover, a:active {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
 }
 
 /* Quote Block */
@@ -97,12 +109,20 @@ a:link, a:visited, a:hover, a:active {
 
 .quote-author {
     font-weight: 900;
+    text-align: end;
 }
 
 /* Call-to-Action Block */
 
 .action {
+    padding: 50px 0;
+}
+
+.action-container {
     background-color: #3882F6;
+
+    display: flex;
+    justify-content: space-around;
 }
 
 .action-header {
@@ -113,9 +133,21 @@ a:link, a:visited, a:hover, a:active {
     color: #F9FAF8;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .action-button {
     background-color: #3882F6;
     color: #F9FAF8;
+    font-weight: bold;
+
+    padding: 5px 20px;
+    
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 /* Footer */
@@ -126,4 +158,6 @@ a:link, a:visited, a:hover, a:active {
 
 .footer-text {
     color: #E5E7EB;
+
+    text-align: center;
 }
