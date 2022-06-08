@@ -8,17 +8,25 @@ body {
     margin: 0;
 }
 
+.header, .information, .quote,
+.action, .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .header-container, .information-container,
 .quote-container, .action-container {
     margin: 0 100px;
+    max-width: 1000px;
 }
-
+/*
 div {
     margin: 2px;
     padding: 2px;
     border: 2px solid red;
 }
-
+*/
 
 
 /* Header */
@@ -53,21 +61,37 @@ a:link, a:visited, a:hover, a:active {
 
 .header-content {
     display: flex;
+    gap: 20px;
+
+    margin: 100px 0;
 }
 
 .header-content-text {
     width: 50%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
 }
 
 .header-main-text {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+
+    padding: 0;
+    margin: 0;
 }
 
 .header-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+
+    padding: 0;
+    margin: 0;
 }
 
 .header-button {
@@ -82,13 +106,17 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .header-image-container {
-    max-width: 50%;
+    height: 300px;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
 }
 
 .header-image {
     width: 100%;
-    height: auto;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Information Block */
@@ -139,6 +167,8 @@ a:link, a:visited, a:hover, a:active {
 
 .action-container {
     background-color: #3882F6;
+
+    border-radius: 5px;
 
     display: flex;
     justify-content: space-around;
